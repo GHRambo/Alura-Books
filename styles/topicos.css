@@ -2,6 +2,7 @@
     background: var(--azul--degrade);
     text-align: center;
     padding: 1em 0;
+    border: 3px  solid var(--laranja);
 }
 
 .topicos-titulo {
