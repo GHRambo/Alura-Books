@@ -46,7 +46,27 @@
         </div>
 
         <ul class="opções">
-            <li class="opção-item">Categoria</li>
+            <input type="checkbox" id="opções-menu" class="opção__botão">
+            <label for="opções-menu">
+                <li class="opção-item">Categoria</li>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Design e UX</a>
+                </li>
+            </ul>
             <li class="opção-item"><a href="#" class="opção-link">Favoritos</a></li>
             <li class="opção-item"><a href="#" class="opção-link">Minha Estante</a></li>
         </ul>
@@ -172,8 +192,10 @@
       </section>
 
       <section class="contato">
-        <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
-        <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato-descrição">
+            <h2 class="contato-titulo">Fique por dentro das novidades!</h2>
+            <p class="contato-texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato-email">
       </section>
 
