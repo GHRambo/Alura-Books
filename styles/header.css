@@ -21,7 +21,7 @@
 }
 
 .container__botao:checked ~ .container-rotulo> .cabeçalho__menu-hamburguer{
-    background-image: url(..assets/MenuAberto.png);
+    background-image: url('../assets/MenuAberto.png');
 }
 
 .container__botao:checked ~.container-rotulo{
